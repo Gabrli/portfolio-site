@@ -1,0 +1,399 @@
+body{
+    background-image: url('photos/baner-bg.png');
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    width: 393px;
+    height: 740px;
+    background: rgba(0, 0, 0, 0.8);
+    transform: translate(-100%);
+    transition: .2s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.title-box{
+    width: 393px;
+    height: 55px;
+    border-bottom: 0.2px solid #fff;
+
+}
+.title{
+    color:#fff;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    
+}
+.btn-menu{
+    width: 40px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 23px;
+   
+    position: fixed;
+    top: 30px;
+    left: 340px;
+}
+.menu ul li {
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+    line-height: 119px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu ul li a{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.btn-menu-close{
+    width: 40px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 23px;
+   
+    position: fixed;
+    top: 30px;
+    left: 340px;
+
+}
+.static-title{
+    color:#fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 14px;
+    text-align: center;
+    width: 150,px;
+    transition: .2s ease-in-out;
+    position: fixed;
+    top: 5px;
+    left: 10px;
+
+}
+.static-title:hover{
+    background: rgba(0, 0, 0, 0.8);
+    transition: .2s ease-in-out;
+}
+.navigation{
+    width: 393px;
+    height: 69px;
+    transition: .2s ease-in-out;
+    
+    position: fixed;
+    top: 0;
+}
+.text-welcome{
+    color: #fff;
+    font-weight: bold;
+    border-radius: 16px ;
+    text-align: center;
+    border:2px solid rgba(255, 255, 255, 0.4);
+    cursor:alias ;
+   
+    transition: .4s ease-in-out;
+    
+    width: 230px;
+    height: 55px;
+    background: linear-gradient(to right, rgb(209, 76, 120), rgba(100, 1, 133));
+    position: absolute;
+    top: 250px;
+    left: 75px;
+}
+.text-title-about{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 320px;
+    left: 65px;
+}
+.text-welcome:hover{
+    background: linear-gradient(to right,  rgb(130, 79, 130), rgba(90, 2, 136) );
+    transition: .4s ease-in-out;
+}
+.text-about{
+    color: grey;
+    font-size: 14px;
+    position: absolute;
+    top: 409px;
+    text-align: center;
+}
+.main-graphic{
+
+
+        width: 100px;
+        animation: move 3s linear infinite;
+    
+       
+        position: absolute;
+        left: 150px;
+        top: 635px;
+        
+    
+
+}
+@keyframes move {
+   0%{
+    
+    transform: translateY(15px);
+
+   }
+   50%{
+    transform: translateY(-15px);
+    
+   }
+   100%{
+    transform: translateY(-0px);
+   }
+   
+  
+   
+   
+}
+.dos-section{
+    width: 350px;
+    height: 690px;
+    background: #101010;
+    border-radius: 16px;
+    position: absolute;
+    top: 790px;
+    left: 10px;
+}
+.skils-one{
+    width: 100px;
+    position: absolute;
+    top: 180px;
+    left: 130px;
+}
+.title-dos{
+    color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+.text-title{
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    top: 72px;
+    left: 15px;
+}
+.text-one{
+    color: #fff;
+    position: absolute;
+    top: 279px;
+    left: 135px;
+}
+.skils-two{
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    left: 130px;
+
+}
+.text-two{
+    color: #fff;
+    position: absolute;
+    top: 445px;
+    left: 135px;
+
+}
+.skils-tree{
+    width: 100px;
+    position: absolute;
+    top: 520px;
+    left: 130px;
+
+}
+.text-tree{
+    color: #fff;
+    position: absolute;
+    top: 616px;
+    left: 135px;
+
+}
+.project-slider{
+    width: 373px;
+    height: 400px;
+    border-radius: 12px;
+    background: #101010;
+    margin-top: 1540px;
+}
+.project-one{
+    width: 280px;
+    height: 200px;
+    border-radius: 16px;
+    color: #fff;
+    transition: .2s ease-in-out;
+    background: linear-gradient(to left, rgb(164, 191, 214), rgb(207, 175, 114) );
+    position: absolute;
+    left: 40px;
+    top: 1660px;
+  
+}
+.project-one:hover{
+    transition: .2s ease-in-out;
+    background: linear-gradient(to left, rgb(101, 154, 201), rgb(197, 153, 71));
+}
+.text-one-project{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 70px;
+}
+
+
+.slider-title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 1520px;
+    left: 140px;
+    
+}
+.project-two{
+    width: 280px;
+    height: 200px;
+    border-radius: 16px;
+    color: #fff;
+    transition: .2s ease-in-out;
+    background: linear-gradient(to left, rgb(135, 69, 179), rgb(125, 214, 230) );
+    position: absolute;
+    left: 40px;
+    top: 1660px;
+
+   
+
+}
+.project-three{
+    width: 280px;
+    height: 200px;
+    border-radius: 16px;
+    color: #fff;
+    transition: .2s ease-in-out;
+    background: linear-gradient(to left, rgb(50, 152, 184), rgb(245, 189, 35) );
+    position: absolute;
+    left: 40px;
+    top: 1660px;
+
+}
+.text-three-project{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 70px;
+}
+.project-two:hover{
+    transition: .2s ease-in-out;
+    background: linear-gradient(to left, rgb(100, 30, 146), rgb(57, 153, 170) );
+}
+.text-two-project{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 70px;
+}
+.slider-text{
+    color: grey;
+    font-size: 13px;
+    position: absolute;
+    top: 1586px;
+    left: 60px;
+}
+
+.git-btn{
+    background: transparent;
+    border: 1px solid ;
+    color: #fff;
+    background: rgba(255,255,255, 0.5);
+    text-decoration: none;
+    list-style-type: none;
+    width: 35px;
+    height: 32px;
+    transition: .2s ease-in-out;
+    text-align: center;
+    font-size: 22px;
+    
+    border-radius: 30px;
+    position: absolute;
+    top: 26px;
+    left: 340px;
+    
+}
+.phone-btn{
+    background: transparent;
+    border: 1px solid ;
+    color: #fff;
+    background: rgba(255,255,255, 0.5);
+    width: 35px;
+    height: 32px;
+    text-align: center;
+    transition: .2s ease-in-out;
+    font-size: 22px;
+    
+    border-radius: 30px;
+    position: absolute;
+    top: 26px;
+    left: 290px;
+
+}
+.dot{
+    background: transparent;
+    border: 0;
+    color: grey;
+    font-size: 40px;
+    transition: .2s ease-in-out;
+    margin: 5px;
+    position: relative;
+    top: 320px;
+    left: 115px;
+}
+.git-btn:hover{
+    background: grey;
+    
+    transition: .2s ease-in-out;
+}
+.phone-btn:hover{
+    background: grey;
+}
+.dot:hover{
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+.img-active{
+    display: none;
+}
+
+
+.menu-active{
+    transform: translate(0%);
+    transition: .2s ease-in-out;
+}
+.nav-active{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: .2s ease-in-out;
+}
+.btn-menu-none{
+    display: none;
+}
+.menu ul li:hover{
+    transition: .1s ease-in-out;
+    color: palevioletred;
+}
